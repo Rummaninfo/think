@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+body{
+    font-family: font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;;
+}
+.nav-the{
+    color:#181818;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800px;
+}
+.mery{
+    color: #fd6e0a;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+.btn{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+   border: 0;
+   color: white;
+   font-size: 20px;
+   font-weight: 700px;
+   padding: 15px 35px;
+}
