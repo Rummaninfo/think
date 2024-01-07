@@ -1,4 +1,6 @@
+
 nav{
+
     display: flex;
     justify-content:space-between ;
     align-items: center;
@@ -6,8 +8,8 @@ nav{
     margin-right: 200px;
 }
 body{
-    font-family: font-family: 'Nunito', sans-serif;
-    font-family: 'Open Sans', sans-serif;;
+    
+    font-family: sans-serif;;
 }
 .nav-the{
     color:#181818;
@@ -44,7 +46,67 @@ nav a{
  .banner{  
     padding-top: 30px;
    padding-left: 150px;
-   padding-bottom: 30px;
+   padding-bottom: 0px;
    padding-right: 30px;
+   display: flex;
+   align-items: center; 
+}
+.banner .profile{
+    height: 400px;
+}
+.header{
+    background-image:url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   
+}
+.banner-grettingf{
+    font-size: 45px;
 
+}
+.banner-title{
+    font-style: 85px;
+    font-weight: 700px;
+
+}
+.about{
+    padding:100px;
+    background-color: #fff8f8;
+    margin: 130px 0px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    text-align: center;
+}
+.lol{
+    margin:0px 90px;
+}
+.skill-container{
+    display: flex;
+    padding: 50px;
+    
+    
+}
+.skill-description{
+    padding: 30px;
+    text-align: center;
+    background-color: #fd6f0a1a;
+   
+}
+.skill-head{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: #fd6e0a;
+}
+.skill-paragraph{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
